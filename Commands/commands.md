@@ -9,6 +9,14 @@
 7.  docker rmi <imageNAME>				- remove image (Delete all dependent container to remove image.)
 8.  docker pull <imageNAME>				- download image and store on host
 9.  docker run <imageNAME> sleep <time in sec>		- appending sleep command on an image
-10. docker exec <ContainerID/NAME> cat <link to dir>	- executea a command in a docker container (in this case, to print the contents of a file)
+10. docker exec <ContainerID/NAME> cat <link to dir>	- execute a command in a docker container (in this case, to print the contents of a file)
 11. docker run -d <imageNAME>				- to run container in background mode (detach)
 12. docker attach <ContainerID/NAME>			- to attach back to a running container (for ContainerID we can use first few characters)
+13. docker run --name <containerNAME> <imageNAME>	- to add custom name to a new container
+
+Docker run-
+
+14. docker run <imageNAME>:<tag>			- to add a preferred version/tag to an image name
+15. docker run -i <imageNAME>				- to run a container in interactive mode
+16. docker run -it <imageNAME>				- to attach to the terminal of a container along with interacitve mode
+17. 
